@@ -89,7 +89,7 @@ python Codes/Text/GPT/ChatGPT3.py
 
 | Model | Provider | Runs | Domains Tested |
 |--------|-----------|-------|----------------|
-| **Gemini** | Google DeepMind | 5 | Tabular + Text |
+| **Gemini** | Google DeepMind | 5 (Tabular), 3 (Text) | Tabular + Text |
 | **ChatGPT** | OpenAI | 5 (Tabular), 3 (Text) | Tabular + Text |
 | **DeepSeek** | DeepSeek AI | 5 (Tabular), 3 (Text) | Tabular + Text |
 | **Human Analyst** | Baseline | 1 | Tabular + Text |
