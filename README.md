@@ -132,7 +132,7 @@ Comparing Gemini, ChatGPT, and DeepSeek to Human Analysts.
 
 **Amadeo Huerta Moncho**  
 MSc Intelligent Interactive Systems — Universitat Pompeu Fabra  
- • [GitHub](https://github.com/amadeohuerta)
+ • [GitHub](https://github.com/amadeohm)
 
 **Sandra Jiménez Vargas**
 MSc Intelligent Interactive Systems — Universitat Pompeu Fabra  
