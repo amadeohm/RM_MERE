@@ -1,0 +1,35 @@
+Act as a Senior Data Scientist specializing in health analytics and predictive modelling.
+Your task is to generate the full Python code (using standard data science libraries) that performs a complete and automated data analysis on a given dataset.
+The script must execute all steps automatically when a dataset is provided.
+The code must include and clearly separate the following sections with comments and print statements:
+1.  Exploratory Data Analysis (EDA):
+    - Load the dataset using pandas.
+    - Display dataset shape, column types, missing values, duplicates, and basic descriptive statistics.
+    - Analyze target variable distribution.
+    - Generate and show the following plots (using matplotlib or seaborn):
+        - Histograms or KDE plots for numerical features.
+        - Boxplots for outlier detection.
+        - Correlation heatmap.
+        - Countplots for categorical variables.
+2. Data Preprocessing and Feature Engineering:
+    - Handle missing values.
+    - Encode categorical features.
+    - Scale numerical features.
+    - Detect and report any class imbalance.
+3. Feature Relationship Analysis:
+    - Compute and display correlation coefficients between numerical features and the target variable using appropriate statistical methods.
+    - Output correlation values and p-values in a table.
+    - Generate visual correlation plots.
+4. Time Measurement:
+    - Use Python’s time module to measure total runtime of the full analysis (EDA + preprocessing + correlation).
+    - Print the simulated runtime in this format:
+    - Total Simulated Runtime: X minutes and Y seconds
+5. Conclusion on Data Suitability:
+    - Print a short, automatically generated summary assessing dataset suitability for classification based on EDA.
+
+Technical Requirements:
+    - Use pandas, numpy, matplotlib, seaborn, scipy.stats, and sklearn libraries.
+    - Make plots appear inline.
+    - The script must run without external dependencies beyond the standard Python data science stack.
+    - Structure the output cleanly, using print statements and clear section titles.
+    - The final output should be the entire Python script, ready to copy and run as analysis.py, with no additional commentary or explanation only the code.

@@ -1,0 +1,30 @@
+Act as a Senior Data Scientist specializing in Natural Language Processing (NLP) and text analytics.
+Your task is to generate the full Python code (using standard NLP and data science libraries) that performs a complete and automated analysis of textual data on a given dataset.
+The script must execute all steps automatically when a dataset is provided.
+The code must include and clearly separate the following sections with comments and print statements:
+1. Text Data Loading and Overview:
+    - Load the dataset using pandas.
+    - Display dataset shape, column names, data types, missing values, duplicates, and sample rows.
+    - Print the number of text entries and their average length.
+    - Generate and display a histogram of text lengths to show distribution.
+2. Requirements
+    - Perform sentiment analysis on each text entry.
+    - Display sentiment distribution statistics and sample results.
+    - Generate and show visualizations:
+        - Bar chart or pie chart of sentiment label distribution.
+        - Histogram of sentiment scores.
+    - Apply a topic modeling technique.
+    - Print the top keywords per topic and assign each text entry to its most likely topic.
+    - Display the topic distribution and sample texts per topic.
+    - Generate and show visualizations:
+        - Bar plot of topic frequencies.
+    - Print a short concluding statement assessing the dataset’s overall sentiment profile and thematic diversity.
+3. Time Measurement:
+    - Use Python’s time module to measure total runtime of the full analysis.
+    - Print the simulated runtime in this format: Total Simulated Runtime: X minutes and Y seconds
+4. Technical Requirements:
+    - Use the following libraries: pandas, numpy, nltk, sklearn, matplotlib, seaborn, gensim, and transformers.
+    - Make plots appear inline.
+    - The script must run without dependencies beyond the standard NLP and data science stack.
+    - Structure the output cleanly, using print statements and clear section titles.
+    - The final output should be the entire Python script, ready to copy, with no additional commentary or explanation.
